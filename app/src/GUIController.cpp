@@ -4,6 +4,7 @@
 
 #include "GUIController.h"
 
+#include "MyController.h"
 #include "spdlog/spdlog.h"
 
 #include <engine/graphics/GraphicsController.hpp>
@@ -21,11 +22,17 @@ void GUIController::poll_events() {
 void GUIController::draw() {
     auto graphics = engine::core::Controller::get<engine::graphics::GraphicsController>();
     const auto &c = graphics->camera();
+    auto pointColor = &engine::core::Controller::get<MyController>()->pointLightColor;
+    auto dirDirection = &engine::core::Controller::get<MyController>()->dirLightDirection;
+    auto dirColor =&engine::core::Controller::get<MyController>()->dirLightColor;
     graphics->begin_gui();
     {
         ImGui::Begin("Camera Info");
         ImGui::Text("Camera Position: (%f, %f, %f)", c->Position.x, c->Position.y, c->Position.z);
         ImGui::Text("(Yaw,Pitch): (%f, %f)", c->Yaw, c->Pitch);
+        ImGui::DragFloat3("PointLight color",(float*)pointColor,0.01f,0.0f,1.0f,"%.2f");
+        ImGui::DragFloat3("Direction of DirLight ",(float*)dirDirection,0.01f,-1.0f,1.0f,"%.2f");
+        ImGui::DragFloat3("Dir Light color",(float*)dirColor,0.01f,0.0f,1.0f,"%.2f");
         ImGui::End();
     }
     graphics->end_gui();
