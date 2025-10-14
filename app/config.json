@@ -1,6 +1,14 @@
 {
   "resources": {
     "models": {
+      "axe": {
+        "path": "axe/sekiramodel.obj",
+        "flip_uvs": true
+      },
+      "cube": {
+        "path": "cube/cube.obj",
+        "flip_uvs": false
+      }
     }
   },
   "window": {
