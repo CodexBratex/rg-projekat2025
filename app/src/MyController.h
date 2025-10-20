@@ -2,9 +2,6 @@
 // Created by matfrg on 10/11/25.
 //
 
-#ifndef MYCONTROLLER_H
-#define MYCONTROLLER_H
-#include "../../engine/libs/assimp/code/AssetLib/Collada/ColladaHelper.h"
 #include "glm/vec3.hpp"
 
 #include <engine/core/Controller.hpp>
@@ -32,4 +29,3 @@ class MyController : public engine::core::Controller {
 
 
 
-#endif //MYCONTROLLER_H

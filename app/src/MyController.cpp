@@ -3,9 +3,6 @@
 //
 
 #include "MyController.h"
-
-#include "../../engine/libs/assimp/contrib/Open3DGC/o3dgcCommon.h"
-#include "../../engine/libs/glfw/include/GLFW/glfw3.h"
 #include "GUIController.h"
 #include "spdlog/spdlog.h"
 

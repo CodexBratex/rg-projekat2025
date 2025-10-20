@@ -30,4 +30,4 @@
 #include <engine/resources/Texture.hpp>
 #include <engine/resources/Skybox.hpp>
 
-#endif//MATF_RG_PROJECT_ENGINE_HPPf
+#endif//MATF_RG_PROJECT_ENGINE_HPP
