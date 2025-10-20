@@ -23,9 +23,9 @@
 
 ### Fundamental:
 
-[ ] Model with lighting
-[ ] Two types of lighting with customizable colors and movement through GUI or ACTIONS
-[ ] {ENTER} --- AFTER_3_SECONDS---Triggers---> {Axe rotates -90 degrees on Z axis} ---> AFTER_3_SECONDS---Triggers---> {Axe rotates 90 degrees on Z axis (back to original position)}
+[X] Model with lighting
+[X] Two types of lighting with customizable colors and movement through GUI or ACTIONS
+[X] {ENTER} --- AFTER_3_SECONDS---Triggers---> {Axe rotates -90 degrees on Z axis} ---> AFTER_3_SECONDS---Triggers---> {Axe rotates 90 degrees on Z axis (back to original position)}
 
 ### Group A:
 
