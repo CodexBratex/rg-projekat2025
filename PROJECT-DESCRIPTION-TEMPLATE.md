@@ -1,22 +1,31 @@
-# {NAME-OF-THE-PROJECT}
+# {Gorehowl}
 
-{INDEX} - {STUDENT-FULL-NAME}  
-{PROJECT DESCRIPTION}
+{136/2022} - {Dalibor VItorovic}  
+{Model sekire sa point svetlom i direkcionim svetlom}
 
 ## Controls
 
-{BUTTON1} -> {ACTION1}  
-{BUTTON2} -> {ACTION2}  
-...  
-{BUTTONN} -> {ACTIONN}
+{F1} -> {Enable mouse input on screen}  
+{F2} -> {Enable GUI}  
+{W} -> {Move camera forward}
+{S} -> {Move camera back}
+{A} -> {Move camera left}
+{D} -> {Move camera right}
+{ENTER} -> {Event array trigger}
+{UP} -> {Move light up}
+{DOWN} -> {Move light down}
+{LEFT} -> {Move light left}
+{RIGHT} -> {Move light RIGHT}
+{PGUP} -> {Move light forward}
+{PGDOWN} -> {Move light back}
 
 ## Features
 
 ### Fundamental:
 
-[ ] Model with lighting
-[ ] Two types of lighting with customizable colors and movement through GUI or ACTIONS
-[ ] {ACTION_X} --- AFTER_M_SECONDS---Triggers---> {EVENT_A} ---> AFTER_N_SECONDS---Triggers---> {EVENT_B}
+[X] Model with lighting
+[X] Two types of lighting with customizable colors and movement through GUI or ACTIONS
+[X] {ENTER} --- AFTER_3_SECONDS---Triggers---> {Axe rotates -90 degrees on Z axis} ---> AFTER_3_SECONDS---Triggers---> {Axe rotates 90 degrees on Z axis (back to original position)}
 
 ### Group A:
 
@@ -37,12 +46,7 @@
 
 ## Models:
 
-[link1]   
-[link2]
+[https://sketchfab.com/3d-models/garrosh-hellscreem-weapon-9d60a93ff6c44c728e3e28641be02b3b] - Axe model
 
 ## Textures
 
-[link1]  
-[link2]
-
-{OTHER-RESOURCES}
